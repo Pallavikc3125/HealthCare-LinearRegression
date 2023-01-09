@@ -13,17 +13,17 @@ However, you will need to convert the categorical data into a numerical form tha
 Linear regression is a statistical model that is used to predict a continuous dependent variable based on one or more independent variables. It assumes that the relationship between the dependent and independent variables is linear.
 
 
-Collect the data: You need to gather the protein sequences and their corresponding TMs. You can use the seq_id column as a unique identifier for each protein.
+* Collect the data: You need to gather the protein sequences and their corresponding TMs. You can use the seq_id column as a unique identifier for each protein.
 
-Preprocess the data: You may need to preprocess the data before you can use it to fit the model. For example, you may need to encode the protein sequences as numerical data, or standardize the TMs.
+* Preprocess the data: You may need to preprocess the data before you can use it to fit the model. For example, you may need to encode the protein sequences as numerical data, or standardize the TMs.
 
-Split the data: Split the data into a training set and a test set, using a suitable splitting ratio such as 70/30 or 80/20. The training set will be used to fit the model, and the test set will be used to evaluate the model's performance.
+* Split the data: Split the data into a training set and a test set, using a suitable splitting ratio such as 70/30 or 80/20. The training set will be used to fit the model, and the test set will be used to evaluate the model's performance.
 
-Fit the model: Use the training set to fit a linear regression model. You can use the protein_sequence column as the input feature and the tm column as the output.
+* Fit the model: Use the training set to fit a linear regression model. You can use the protein_sequence column as the input feature and the tm column as the output.
 
-Evaluate the model: Use the test set to evaluate the model's performance. You can use metrics such as mean absolute error (MAE), mean squared error (MSE), and root mean squared error (RMSE) to measure the accuracy of the model.
+* Evaluate the model: Use the test set to evaluate the model's performance. You can use metrics such as mean absolute error (MAE), mean squared error (MSE), and root mean squared error (RMSE) to measure the accuracy of the model.
 
-Make predictions: Use the model to make predictions on new protein sequences. You can input the sequence of a protein and the model will output the predicted TM.
+* Make predictions: Use the model to make predictions on new protein sequences. You can input the sequence of a protein and the model will output the predicted TM.
 
 
-### Randomforest Regressor Giving The Best Accuracy as 60%. It Fit Best Model Campare to Other Models
+### Prediction using Randomforest Regressor algorithm with 60% is giving the best accuracy. It Fit Best Model Campare to Other Models
